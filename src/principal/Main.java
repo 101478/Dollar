@@ -11,8 +11,11 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
 		
+		System.out.println("Bom Dia!");
 		
-		System.out.print("Qual é o valor do Dollar? ");
+		System.out.print("--------------------------------------");
+		
+		System.out.print("\nQual é o valor do Dollar? ");
 		double dollar = input.nextDouble();
 		
 		System.out.print("\nQuantos Dollares você quer comprar? ");
